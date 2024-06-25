@@ -11,7 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gradient-to-t from-purple-600 to-blue-500  bg-scroll scroll-smooth h-full">
+<body class="bg-gradient-to-t from-purple-600 to-blue-500  bg-scroll scroll-smooth h-full w-fit">
     <!-- Nav bar -->
     <nav class="fixed top-0 w-full h-16 z-50 bg-white border-gray-200 dark:bg-black dark:bg-opacity-50">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4">
@@ -53,9 +53,8 @@
     </nav>
 
     <!-- About me -->
-    <section id="about-me" class="flex justify-center mt-16 border border-white">
-        <div
-            class="flex flex-col md:flex-row w-full m-10 md:w-fit h-full justify-center p-5 bg-black bg-opacity-50 rounded-lg">
+    <section id="about-me" class="flex justify-center mt-16 border border-white min-w-screen">
+        <div class="flex flex-col md:flex-row w-full m-10 md:w-fit h-full justify-center p-5 bg-black bg-opacity-50 rounded-lg">
             <div class="flex justify-center p-4">
                 <img class="rounded-xl object-cover aspect-square" src="img/max.webp" alt="" />
             </div>
@@ -116,7 +115,7 @@
         </div>
     </section>
     <!-- Projects -->
-    <section id="projects" class="flex justify-center max-w-full border border-white p-10 min-w-fit">
+    <section id="projects" class="flex justify-center border border-white p-10 min-w-fit">
         <div class="bg-black/50 max-w-5xl w-full mx-10 p-5 bg-black bg-opacity-50 rounded-lg shadow-2xl">
             <h1 class="text-3xl md:text-4xl tracking-tight text-white text-center mb-10">These are some of my projects
             </h1>
