@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flowbite Project</title>
+    <title>Maxi Castaneda</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+    <meta name="description" content="Maxi Castaneda's personal CV and portfolio.">
+    <meta name="keywords" content="Maxi Castaneda, Front-End developer, portfolio, CV">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -15,7 +16,7 @@
     <!-- Nav bar -->
     <nav class="fixed top-0 w-full h-16 z-50 bg-white border-gray-200 dark:bg-black dark:bg-opacity-50">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4">
-            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="img/max.jpg" class="h-8 rounded-full mr-8  animate-pulse" alt="Max avatar" />
             </a>
             <button data-collapse-toggle="navbar-default" type="button"
@@ -29,7 +30,7 @@
             </button>
             <div class="hidden w-full md:block md:w-auto content-center" id="navbar-default">
                 <ul
-                    class="bg-black/50 md:bg-transparent flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:border-gray-700">
+                    class="bg-black/90 md:bg-transparent flex flex-col p-4 md:p-0 mt-4 border border-indigo-400 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:border-gray-700 items-center">
                     <li>
                         <a href="#about-me"
                             class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About
@@ -53,8 +54,8 @@
     </nav>
 
     <!-- About me -->
-    <section id="about-me" class="flex justify-center mt-16 border border-white">
-        <div class="flex flex-col md:flex-row w-full m-5 md:m-10 md:w-fit h-full justify-center p-5 bg-black bg-opacity-50 rounded-lg">
+    <section id="about-me" class="flex justify-center mt-16">
+        <div class="flex flex-col md:flex-row max-w-4xl w-full m-5 md:m-10 md:w-fit h-full justify-center p-5 bg-black bg-opacity-50 rounded-lg shadow-xl shadow-black/90">
             <div class="flex justify-center p-4">
                 <img class="rounded-xl object-cover aspect-square" src="img/max.webp" alt="" />
             </div>
@@ -66,7 +67,7 @@
                     developer.<br> Check my
                     projects!</p>
                 <div class="flex justify-center md:justify-start w-full mt-4">
-                    <a href="#" data-tooltip-target="tooltip-github" data-tooltip-placement="bottom"
+                    <a href="https://github.com/MaxiCastaneda" target="_blank" data-tooltip-target="tooltip-github" data-tooltip-placement="bottom"
                         class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer text-gray-400 hover:text-white hover:bg-gray-600">
                         <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
@@ -81,7 +82,7 @@
                         Star me on GitHub
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
-                    <a href="#" data-tooltip-target="tooltip-linkedin" data-tooltip-placement="bottom"
+                    <a href="https://www.linkedin.com/in/castanedajmaximilano/" target="_blank" data-tooltip-target="tooltip-linkedin" data-tooltip-placement="bottom"
                         class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer text-gray-400 hover:text-white hover:bg-gray-600">
                         <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
@@ -97,7 +98,7 @@
                         Let's connect on LinkedIn
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
-                    <a href="#" data-tooltip-target="tooltip-email" data-tooltip-placement="bottom"
+                    <a href="mailto:maxicastaneda@gmail.com" data-tooltip-target="tooltip-email" data-tooltip-placement="bottom"
                         class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer text-gray-400 hover:text-white hover:bg-gray-600">
                         <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -105,11 +106,11 @@
                                 d="m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z" />
                         </svg>
                     </a>
-                    <div id="tooltip-email" role="tooltip"
-                        class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                    <div  id="tooltip-email" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
                         Send me an e-mail
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
+                
                 </div>
             </div>
         </div>
@@ -117,11 +118,11 @@
 
 
     <!-- Projects  -->
-<section id="projects" class="flex justify-center border border-red-600">
-    <div class="w-fit md:w-3/5 max-w-5xl bg-black/50 rounded-lg m-5 md:m-10 px-5 md:py-10 ">
-        <h1 class="text-3xl md:text-4xl tracking-tight text-white text-center mb-10">These are some of my projects</h1>
+<section id="projects" class="flex justify-center">
+    <div class="w-fit md:w-3/5 max-w-4xl bg-black/50 rounded-lg m-5 md:m-10 px-5 md:px-10 md:py-5 shadow-xl shadow-black/90">
+        <h1 class="text-3xl md:text-4xl tracking-tight text-white text-center my-4">These are some of my projects</h1>
         <!-- tarjeta 1 -->
-        <div class="max-w-md mx-auto bg-black/50 rounded-xl shadow-md overflow-hidden md:max-w-2xl border-2 border-indigo-500/75 m-10">
+        <div class="max-w-md mx-auto bg-black/50 rounded-xl shadow-md overflow-hidden md:max-w-2xl border-2 border-indigo-500/75 mt-8 mb-4">
             <div class="md:flex">
                 <div class="md:shrink-0">
                     <img class="h-52 w-full object-cover md:h-full md:w-72" src="img/calcular.webp" alt="Modern building architecture">
@@ -143,7 +144,7 @@
             </div>
         </div>
         <!-- tarjeta 2 -->
-        <div class="max-w-md mx-auto bg-black/50 rounded-xl shadow-md overflow-hidden md:max-w-2xl border-2 border-indigo-500/75 m-10">
+        <div class="max-w-md mx-auto bg-black/50 rounded-xl shadow-md overflow-hidden md:max-w-2xl border-2 border-indigo-500/75 mb-5">
             <div class="md:flex">
                 <div class="md:shrink-0">
                     <img class="h-52 w-full object-cover md:h-full md:w-72" src="img/login.webp" alt="Modern building architecture">
@@ -170,9 +171,8 @@
 
 
     <!-- Experience -->
-    <section id="experience" class="flex justify-center border border-white">
-        <div
-            class="flex-row justify-center md:px-12 max-w-5xl m-5 md:m-10 p-10 rounded-lg shadow bg-black bg-opacity-50 md:w-fit relative">
+    <section id="experience" class="flex justify-center">
+        <div class="flex-row justify-center md:px-12 max-w-4xl m-5 md:m-10 p-10 rounded-lg shadow bg-black bg-opacity-50 md:w-fit relative shadow-xl shadow-black/90">
             <h1 class="text-3xl md:text-4xl tracking-tight text-white text-center mb-10">Experience</h1>
             <ol class="relative border-s border-gray-200 dark:border-gray-700">
                 <li class="mb-10 ms-4">
@@ -221,8 +221,8 @@
     </section>
 
     <!-- Certifications -->
-<section id="certifications" class="flex w-full justify-center border border-white">
-    <div class="relative w-full md:w-3/5 max-w-5xl m-5 md:m-10 p-10 border border-white bg-black/50 rounded-lg">
+<section id="certifications" class="flex w-full justify-center ">
+    <div class="relative w-full md:w-3/5 max-w-4xl m-5 md:m-10 p-10 bg-black/50 rounded-lg shadow-xl shadow-black/90">
         <h1 class="text-3xl md:text-4xl tracking-tight text-white text-center mb-2">Certifications</h1>
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
 
@@ -242,13 +242,13 @@
                 </div>
                 <!-- Item 3 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="img/freecodecamp.png"
+                    <img src="img/ielts.jpeg"
                         class="absolute block max-w-md -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         alt="...">
                 </div>
                 <!-- Item 4 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <img src="img/ielts.jpeg"
+                    <img src="img/argentina-programa2.jpg"
                         class="absolute block max-w-md -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                         alt="...">
                 </div>
