@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth scroll-p-6">
 
 <head>
     <meta charset="UTF-8">
@@ -12,50 +12,44 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gradient-to-t from-purple-600 to-blue-500  bg-scroll scroll-smooth h-full">
-    <!-- Nav bar -->
-    <nav class="fixed top-0 w-full h-16 z-50 bg-white border-gray-200 dark:bg-black dark:bg-opacity-50">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4">
-            <a class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="img/max.jpg" class="h-8 rounded-full mr-8  animate-pulse" alt="Max avatar" />
-            </a>
-            <button data-collapse-toggle="navbar-default" type="button"
-                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                aria-controls="navbar-default" aria-expanded="false">
-                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                    viewBox="0 0 17 14">
-                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M1 1h15M1 7h15M1 13h15" />
-                </svg>
-            </button>
-            <div class="hidden w-full md:block md:w-auto content-center" id="navbar-default">
-                <ul
-                    class="bg-black/90 md:bg-transparent flex flex-col p-4 md:p-0 mt-4 border border-indigo-400 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:border-gray-700 items-center">
-                    <li>
-                        <a href="#about-me"
-                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About
-                            me</a>
-                    </li>
-                    <li>
-                        <a href="#projects"
-                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#experience"
-                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Experience</a>
-                    </li>
-                    <li>
-                        <a href="#certifications"
-                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Certifications</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
+
+<body class="bg-gradient-to-t from-purple-600 to-blue-500 scroll-smooth h-full">
+    
+    <!-- Nav bar -->
+   <nav class="z-10 bg-black/75 fixed w-full top-0 start-0">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-start sm:justify-center mx-auto p-4">
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+          
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+      </button>
+    </div>
+    <div class="items-start justify-start hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+      <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
+        <li>
+          <a href="#about-me" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">About me</a>
+        </li>
+        <li>
+          <a href="#projects" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
+        </li>
+        <li>
+          <a href="#experience" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Experience</a>
+        </li>
+        <li>
+          <a href="#certifications" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Certifications</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    
+  </nav>
+           
     <!-- About me -->
     <section id="about-me" class="flex justify-center mt-16">
-        <div class="flex flex-col md:flex-row max-w-4xl w-full m-5 md:m-10 md:w-fit h-full justify-center p-5 bg-black bg-opacity-50 rounded-lg shadow-xl shadow-black/90">
+        <div class="flex flex-col md:flex-row md:w-4/6 m-5 md:m-10 h-full justify-center p-5 bg-black bg-opacity-50 rounded-lg shadow-xl shadow-black/90">
             <div class="flex justify-center p-4">
                 <img class="rounded-xl object-cover aspect-square" src="img/max.webp" alt="" />
             </div>
@@ -119,7 +113,7 @@
 
     <!-- Projects  -->
 <section id="projects" class="flex justify-center">
-    <div class="w-fit md:w-3/5 max-w-4xl bg-black/50 rounded-lg m-5 md:m-10 px-5 md:px-10 md:py-5 shadow-xl shadow-black/90">
+    <div class="w-fit md:w-4/6  bg-black/50 rounded-lg m-5 md:m-10 px-5 md:px-10 md:py-5 shadow-xl shadow-black/90">
         <h1 class="text-3xl md:text-4xl tracking-tight text-white text-center my-4">These are some of my projects</h1>
         <!-- tarjeta 1 -->
         <div class="max-w-md mx-auto bg-black/50 rounded-xl shadow-md overflow-hidden md:max-w-2xl border-2 border-indigo-500/75 mt-8 mb-4">
@@ -169,10 +163,9 @@
     </div>
 </section>
 
-
     <!-- Experience -->
     <section id="experience" class="flex justify-center">
-        <div class="flex-row justify-center md:px-12 max-w-4xl m-5 md:m-10 p-10 rounded-lg shadow bg-black bg-opacity-50 md:w-fit relative shadow-xl shadow-black/90">
+        <div class="flex-row justify-center md:px-12 md:w-4/6 m-5 md:m-10 p-10 rounded-lg shadow bg-black bg-opacity-50  relative shadow-xl shadow-black/90">
             <h1 class="text-3xl md:text-4xl tracking-tight text-white text-center mb-10">Experience</h1>
             <ol class="relative border-s border-gray-200 dark:border-gray-700">
                 <li class="mb-10 ms-4">
@@ -222,7 +215,7 @@
 
     <!-- Certifications -->
 <section id="certifications" class="flex w-full justify-center ">
-    <div class="relative w-full md:w-3/5 max-w-4xl m-5 md:m-10 p-10 bg-black/50 rounded-lg shadow-xl shadow-black/90">
+    <div class="relative w-full md:w-4/6 m-5 md:m-10 p-10 bg-black/50 rounded-lg shadow-xl shadow-black/90">
         <h1 class="text-3xl md:text-4xl tracking-tight text-white text-center mb-2">Certifications</h1>
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
 
@@ -304,8 +297,7 @@
 </section>
 
     <!-- Footer -->
-    <footer
-        class="z-10 bottom-0 w-full shadow sm:flex sm:items-center sm:justify-evenly p-2 sm:p-4 xl:p-4 bg-black bg-opacity-50">
+    <footer class="bottom-0 w-full shadow sm:flex sm:items-center sm:justify-evenly p-2 sm:p-4   bg-black bg-opacity-50">
         <p class="mb-4 text-sm text-center text-gray-500 dark:text-gray-400 sm:mb-0">
             Last update June 2024 - <a class="hover:underline" target="_blank">Feel free to reach me</a>
         </p>
@@ -358,9 +350,6 @@
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-
-
-
 </body>
 
 </html>
