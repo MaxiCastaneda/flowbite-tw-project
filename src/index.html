@@ -16,7 +16,7 @@
 
 <body class="bg-gradient-to-t from-purple-600 to-blue-500 scroll-smooth h-full">
 
-    
+
     <!-- Nav bar -->
     <nav class="z-10 bg-black/75 fixed w-full top-0 start-0">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-start sm:justify-center mx-auto p-4">
@@ -37,7 +37,7 @@
                     class="flex flex-col p-4 md:p-0 mt-4 font-medium rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
                     <li>
                         <a href="#about-me"
-                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent sm:p-0"
                             aria-current="page">About me</a>
                     </li>
                     <li>
@@ -58,27 +58,28 @@
 
     </nav>
 
-    
+
 
     <!-- About me -->
     <section id="about-me" class="flex justify-center mt-16">
         <div
-            class="flex flex-col md:flex-row md:w-4/6 m-5 md:m-10 h-full justify-center p-5 bg-black bg-opacity-50 rounded-lg shadow-xl shadow-black/90">
+            class="max-w-4xl flex flex-col md:flex-row md:w-4/6 m-5 md:m-10 h-full justify-center p-5 bg-black bg-opacity-50 rounded-lg shadow-xl shadow-black/90">
             <div class="flex justify-center p-2 sm:p-0">
                 <img class="rounded-xl object-cover aspect-square" src="img/max.webp" alt="" />
             </div>
             <div class="flex flex-col justify-start md:pl-5 sm:pr-4 sm:items-start">
-                <h1 class="mb-2 text-5xl sm:text-5xl font-bold text-white text-center md:text-left mt-2">Max Castaneda</h1>
+                <h1 class="mb-2 text-5xl sm:text-5xl font-bold text-white text-center md:text-left mt-2">Max Castaneda
+                </h1>
                 <h2 class="mb-2 text-4xl sm:text-3xl tracking-tight text-white text-center md:text-left">Front end
                     developer</h2>
                 <p class="mb-2 mt-2 sm:mt-0 text-white text-center text-xl sm:text-left">Accountant seeking new
                     challenges as a front end
                     developer.
                 <p class="mb-2 mt-2 text-white text-center text-xl sm:text-left">Check my projects!</p>
-                <div class="flex justify-center md:justify-start w-full">
-                    <a href="https://github.com/MaxiCastaneda" target="_blank" data-tooltip-target="tooltip-github"
-                        data-tooltip-placement="bottom"
-                        class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-white hover:bg-gray-600">
+                <div class="flex justify-center md:justify-start w-full"><a href="https://github.com/MaxiCastaneda"
+                        target="_blank" data-tooltip-target="tooltip-github" data-tooltip-placement="bottom"
+                        class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-white hover:bg-gray-600"
+                        aria-label="Visit my GitHub profile">
                         <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                             viewBox="0 0 24 24">
@@ -94,7 +95,8 @@
                     </div>
                     <a href="https://www.linkedin.com/in/castanedajmaximilano/" target="_blank"
                         data-tooltip-target="tooltip-linkedin" data-tooltip-placement="bottom"
-                        class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-white hover:bg-gray-600">
+                        class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-white hover:bg-gray-600"
+                        aria-label="Visit my LinkedIn profile">
                         <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                             viewBox="0 0 24 24">
@@ -111,7 +113,8 @@
                     </div>
                     <a href="mailto:maxicastaneda@gmail.com" data-tooltip-target="tooltip-email"
                         data-tooltip-placement="bottom"
-                        class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-white hover:bg-gray-600">
+                        class="inline-flex justify-center p-2 text-gray-500 rounded-lg cursor-pointer hover:text-white hover:bg-gray-600"
+                        aria-label="Send me an email">
                         <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
@@ -123,18 +126,17 @@
                         Send me an e-mail
                         <div class="tooltip-arrow" data-popper-arrow></div>
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
 
-    
-  
+
+
 
     <!-- Projects  -->
-    <section id="projects" class="flex justify-center">
-        <div class="w-fit md:w-4/6 bg-black/50 rounded-lg m-5 md:m-10 px-5 md:px-10 md:py-5 shadow-xl shadow-black/90">
+    <section id="projects" class="flex justify-center ">
+        <div class="w-fit max-w-4xl  sm:w-4/6 bg-black/50 rounded-lg m-5 md:m-10 px-5 md:px-10 md:py-5 shadow-xl shadow-black/90">
             <h1 class="text-3xl md:text-4xl tracking-tight text-white text-center my-4">These are some of my projects
             </h1>
             <!-- tarjeta 1 -->
@@ -146,9 +148,10 @@
                             alt="Modern building architecture">
                     </div>
                     <div class="p-4 bg-black">
-                        <a class="block mt-1 text-lg leading-tight font-medium text-white text-center md:text-left">CalculAR
+                        <a href="https://maxicastaneda.github.io/calculAR/" target="_blank"
+                            class="block mt-1 text-lg leading-tight font-medium text-white text-center md:text-left">CalculAR
                             - Calculadora inflacionaria</a>
-                        <p class="mt-2 text-slate-500 text-center md:text-left">Inflation-adjusted amount calculator
+                        <p class="mt-2 text-white text-center md:text-left">Inflation-adjusted amount calculator
                             with Argentina rates. Minimalist design created with the PicoCSS framework.</p>
                         <div class="flex justify-center md:justify-start mt-4">
                             <a href="#"
@@ -160,9 +163,12 @@
                             <a href="#"
                                 class="inline-flex p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
                                 <span
-                                    class="justify-center px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                    <i class="fa-brands fa-github text-white text-lg"></i>
+                                    class="justify-center px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0"
+                                    role="button" tabindex="0" aria-label="Visit my GitHub profile">
+                                    <i class="fa-brands fa-github text-white text-lg" aria-hidden="true"></i>
                                 </span>
+
+
                             </a>
                         </div>
                     </div>
@@ -177,9 +183,10 @@
                             alt="Modern building architecture">
                     </div>
                     <div class="p-4 bg-black">
-                        <a class="block mt-1 text-lg leading-tight font-medium text-white text-center md:text-left">Login
+                        <a href="https://maxicastaneda.github.io/login" target="_blank"
+                            class="block mt-1 text-lg leading-tight font-medium text-white text-center md:text-left">Login
                             - Functional login animated page</a>
-                        <p class="mt-2 text-slate-500 text-center md:text-left">Design created with CSS and JavaScript.
+                        <p class="mt-2 text-white text-center md:text-left">Design created with CSS and JavaScript.
                             Functional back-end using JAVA. Project done in collaboration.</p>
                         <div class="flex justify-center md:justify-start mt-4">
                             <a href="#"
@@ -191,40 +198,50 @@
                             <a href="#"
                                 class="inline-flex p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
                                 <span
-                                    class="justify-center px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                    <i class="fa-brands fa-github text-white text-lg"></i>
+                                    class="justify-center px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0"
+                                    role="button" tabindex="0" aria-label="Visit my GitHub profile">
+                                    <i class="fa-brands fa-github text-white text-lg" aria-hidden="true"></i>
                                 </span>
+
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
+
             <!-- stack -->
-                                                                    
-                       
-                <div class="w-full sm:w-4/6 mx-auto mb-6 sm:mb-0 p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
-                    <div class="w-full justify-evenly transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0 flex space-x-3 px-5 py-2.5">
-                        <i class="fab fa-html5 text-white text-3xl" aria-label="HTML5" title="HTML5"></i>
-                        <i class="fab fa-css3-alt text-white text-3xl" aria-label="CSS3" title="CSS3"></i>
-                        <i class="fab fa-js text-white text-3xl" aria-label="JavaScript" title="JavaScript"></i>
-                        <svg class="w-6 h-6 text-white text-3xl" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24" aria-label="Tailwind CSS" title="Tailwind CSS">
-                            <path d="M11.782 5.72a4.773 4.773 0 0 0-4.8 4.173 3.43 3.43 0 0 1 2.741-1.687c1.689 0 2.974 1.972 3.758 2.587a5.733 5.733 0 0 0 5.382.935c2-.638 2.934-2.865 3.137-3.921-.969 1.379-2.44 2.207-4.259 1.231-1.253-.673-2.19-3.438-5.959-3.318ZM6.8 11.979A4.772 4.772 0 0 0 2 16.151a3.431 3.431 0 0 1 2.745-1.687c1.689 0 2.974 1.972 3.758 2.587a5.733 5.733 0 0 0 5.382.935c2-.638 2.933-2.865 3.137-3.921-.97 1.379-2.44 2.208-4.259 1.231-1.253-.673-2.19-3.443-5.963-3.317Z" />
-                        </svg>
-                        <i class="fa-brands fa-bootstrap text-white text-3xl" aria-label="Bootstrap" title="Bootstrap"></i>
-                        <i class="fas fa-database text-white text-3xl" alt="SQL icon"></i>
-                        <i class="fab fa-java text-white text-3xl" aria-label="Java" title="Java"></i>
-                    </div>
+            <div
+                class="w-full sm:w-4/6 max-w-2xl mx-auto mb-6 sm:mb-0 p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                <div
+                    class="max-w-3/6 space-x-0.5 justify-evenly transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0 flex px-5 py-2.5">
+                    <span class="fab fa-html5 text-white text-3xl" aria-label="HTML5" title="HTML5" role="img"></span>
+                    <span class="fab fa-css3-alt text-white text-3xl" aria-label="CSS3" title="CSS3" role="img"></span>
+                    <span class="fab fa-js text-white text-3xl" aria-label="JavaScript" title="JavaScript"
+                        role="img"></span>
+                    <svg class="w-6 h-6 text-white text-3xl" aria-label="Tailwind CSS" title="Tailwind CSS"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        viewBox="0 0 24 24" role="img">
+                        <path
+                            d="M11.782 5.72a4.773 4.773 0 0 0-4.8 4.173 3.43 3.43 0 0 1 2.741-1.687c1.689 0 2.974 1.972 3.758 2.587a5.733 5.733 0 0 0 5.382.935c2-.638 2.934-2.865 3.137-3.921-.969 1.379-2.44 2.207-4.259 1.231-1.253-.673-2.19-3.438-5.959-3.318ZM6.8 11.979A4.772 4.772 0 0 0 2 16.151a3.431 3.431 0 0 1 2.745-1.687c1.689 0 2.974 1.972 3.758 2.587a5.733 5.733 0 0 0 5.382.935c2-.638 2.933-2.865 3.137-3.921-.97 1.379-2.44 2.208-4.259 1.231-1.253-.673-2.19-3.443-5.963-3.317Z" />
+                    </svg>
+                    <span class="fa-brands fa-bootstrap text-white text-3xl" aria-label="Bootstrap" title="Bootstrap"
+                        role="img"></span>
+                    <span class="fas fa-database text-white text-3xl" aria-label="SQL" title="SQL" role="img"></span>
+                    <span class="fab fa-java text-white text-3xl" aria-label="Java" title="Java" role="img"></span>
                 </div>
-            
-            
-            
+            </div>
         </div>
+
+
+
+
+
     </section>
 
     <!-- Experience -->
     <section id="experience" class="flex justify-center">
         <div
-            class="flex-row justify-center md:px-12 md:w-4/6 m-5 md:m-10 p-10 rounded-lg bg-black bg-opacity-50  relative shadow-xl shadow-black/90">
+            class="max-w-4xl flex-row justify-center md:px-12 md:w-4/6 m-5 md:m-10 p-10 rounded-lg bg-black bg-opacity-50  relative shadow-xl shadow-black/90">
             <h1 class="text-3xl md:text-4xl tracking-tight text-white text-center mb-10">Experience</h1>
             <ol class="relative border-s border-gray-200 dark:border-gray-700">
                 <li class="mb-10 ms-4">
@@ -233,8 +250,8 @@
                     </div>
                     <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2024
                     </time>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Freelance frontend developer
-                    </h3>
+                    <h1 class="text-lg font-semibold text-gray-900 dark:text-white">Freelance frontend developer
+                    </h1>
                     <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Dedicated freelance
                         front-end developer, currently advancing my studies in web development through various
                         certifications. I have successfully completed multiple personal projects, demonstrating my
@@ -246,8 +263,8 @@
                     </div>
                     <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2023
                     </time>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">KPMG - Audit senior (Accountant)
-                    </h3>
+                    <h1 class="text-lg font-semibold text-gray-900 dark:text-white">KPMG - Audit senior (Accountant)
+                    </h1>
                     <p class="text-base font-normal text-gray-500 dark:text-gray-400">During my time as an Audit Senior
                         at a Big Four firm, I developed skills in project management, team leadership, and effective
                         communication. I led audit teams, coordinating efforts and ensuring the delivery of high-quality
@@ -260,10 +277,11 @@
                     </div>
                     <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2019 - 2022
                     </time>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Deloitte - Audit senior (Accountant)
-                    </h3>
+                    <h1 class="text-lg font-semibold text-gray-900 dark:text-white">Deloitte - Audit senior (Accountant)
+                    </h1>
                     <p class="text-base font-normal text-gray-500 dark:text-gray-400">Collaborated closely with various
-                        departments and clients, strengthening my communication and adaptability skills. These experiences have honed my ability to work in a team, manage multiple
+                        departments and clients, strengthening my communication and adaptability skills. These
+                        experiences have honed my ability to work in a team, manage multiple
                         tasks, and maintain a results-oriented focus.</p>
                 </li>
             </ol>
@@ -277,7 +295,7 @@
     <!-- Certifications -->
     <section id="certifications" class="flex w-full justify-center ">
         <div
-            class="relative w-full md:w-4/6 m-5 md:m-10 p-6 bg-black/50 rounded-lg shadow-xl shadow-black/90 aspect-video">
+            class="max-w-4xl relative w-full md:w-4/6 m-5 md:m-10 p-6 bg-black/50 rounded-lg shadow-xl shadow-black/90 aspect-video">
             <h1 class="text-3xl md:text-4xl tracking-tight text-white text-center mb-6">Certifications</h1>
             <div id="default-carousel" class="relative" data-carousel="slide">
 
